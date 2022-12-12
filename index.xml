@@ -1,0 +1,42 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>我的全新 Hugo 网站</title>
+        <link>https://accmoy.github.io/</link>
+        <description>这是我的全新 Hugo 网站</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>2712868621@qq.com (CC)</managingEditor>
+            <webMaster>2712868621@qq.com (CC)</webMaster><lastBuildDate>Fri, 09 Dec 2022 02:57:40 &#43;0800</lastBuildDate>
+            <atom:link href="https://accmoy.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>git</title>
+    <link>https://accmoy.github.io/second_post/</link>
+    <pubDate>Fri, 09 Dec 2022 02:57:40 &#43;0800</pubDate>
+    <author>CC</author>
+    <guid>https://accmoy.github.io/second_post/</guid>
+    <description><![CDATA[Linux安装git sudo yum install git(OpenEuler) 创建一个git仓库 mkdir git_test git init 查看git状态 git status 更新git git add . git commit -m &ldquo;first&rdquo;]]></description>
+</item>
+<item>
+    <title>Linux操作系统文件系统命令</title>
+    <link>https://accmoy.github.io/first_post/</link>
+    <pubDate>Fri, 09 Dec 2022 02:57:40 &#43;0800</pubDate>
+    <author>CC</author>
+    <guid>https://accmoy.github.io/first_post/</guid>
+    <description><![CDATA[文件系统命令 Shell Shell：字面意思“壳”；引申一下就是人机界面。是Linux里用户使用Linux的桥梁（命令接口）。 Linux下默认的She]]></description>
+</item>
+<item>
+    <title>Socket</title>
+    <link>https://accmoy.github.io/third_post/</link>
+    <pubDate>Fri, 09 Dec 2022 02:57:40 &#43;0800</pubDate>
+    <author>CC</author>
+    <guid>https://accmoy.github.io/third_post/</guid>
+    <description><![CDATA[service端代码 Client端代码 执行服务端以及客户端 g++ service.c -o test1.out ./test1.out g++ client.c -o test2.out ./test2.out 将代码上传到git仓库中 Service: git add service.c git commit -m &ldquo;socket_service&rdquo; Client: git add client.c git commit -m &ldquo;socket_client&rdquo;]]></description>
+</item>
+<item>
+    <title>部署静态网站</title>
+    <link>https://accmoy.github.io/forth_post/</link>
+    <pubDate>Fri, 09 Dec 2022 02:57:40 &#43;0800</pubDate>
+    <author>CC</author>
+    <guid>https://accmoy.github.io/forth_post/</guid>
+    <description><![CDATA[Linux安装hugo sudo apt-get install hugo 创建一个文件夹来存放hugo网站 cd Downloads mkdir mysite hugo new site mysite 创建后目录如下 在hugo选择一个主题网站 cd mysite git clone http://github.com/dillonzq/LoveIt.git 在confi]]></description>
+</item>
+</channel>
+</rss>
